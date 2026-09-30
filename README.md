@@ -3,10 +3,9 @@
 Self-hosted copy of the Squarespace homepage: plain HTML + CSS, no build step.
 
 ## Files
-- `index.html` — bio, work experience, photo, social links.
-- `styles.css` — the layout (a recreation of the Squarespace 24-column grid), fonts and film-grain effect.
-- `images/paul.jpg` — **add this**: download your photo from Squarespace and save it here. Until it exists
-  the page falls back to the Squarespace-hosted copy, which will go away when you cancel.
+- `index.html` — bio, work experience, photo placeholder, social links.
+- `styles.css` — the layout (a recreation of the Squarespace 24-column grid) and fonts. Colors are the
+  variables at the top: `--bg` (vanilla background), `--text`, and `--block` (the grey photo placeholder).
 
 ## Preview locally
     python3 -m http.server 8000   # then open http://localhost:8000
