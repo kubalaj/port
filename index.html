@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paul Kubala</title>
+  <meta name="description" content="Paul Kubala — Rendering Pipeline Technical Director. Film credits include Inside Out 2, Elemental and Turning Red.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">PAUL KUBALA</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Rendering Pipeline Technical Director</p>
+      <h1>Paul Kubala</h1>
+      <p class="lede">Building the rendering and pipeline tools behind feature animation, currently at Skydance Animation in Oakland, CA.</p>
+    </section>
+
+    <!-- Demo reel: paste your Vimeo/YouTube embed URL into the iframe src. -->
+    <section class="reel" aria-label="Demo reel">
+      <div class="video">
+        <!-- <iframe src="https://player.vimeo.com/video/XXXXXXX" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Demo reel"></iframe> -->
+        <div class="video-placeholder">Demo reel</div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Film Credits</h2>
+      <div class="grid">
+        <figure class="card">
+          <div class="poster"><img src="images/inside-out-2.jpg" alt="Inside Out 2" loading="lazy" onerror="this.remove()"></div>
+          <figcaption><strong>Inside Out 2</strong><span>Pixar · 2024</span></figcaption>
+        </figure>
+        <figure class="card">
+          <div class="poster"><img src="images/elemental.jpg" alt="Elemental" loading="lazy" onerror="this.remove()"></div>
+          <figcaption><strong>Elemental</strong><span>Pixar · 2023</span></figcaption>
+        </figure>
+        <figure class="card">
+          <div class="poster"><img src="images/turning-red.jpg" alt="Turning Red" loading="lazy" onerror="this.remove()"></div>
+          <figcaption><strong>Turning Red</strong><span>Pixar · 2022</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <span class="dates">2024 – Present</span>
+          <div><h3>Rendering Pipeline Technical Director</h3><p>Skydance Animation · Oakland, CA</p></div>
+        </li>
+        <li>
+          <span class="dates">2021 – 2024</span>
+          <div><h3>Lightspeed / Rendering Technical Director</h3><p>Pixar Animation Studios · Emeryville, CA</p></div>
+        </li>
+        <li>
+          <span class="dates">2019 – 2021</span>
+          <div><h3>Pipeline Technical Director</h3><p>LAIKA · Portland, OR</p></div>
+        </li>
+        <li>
+          <span class="dates">2014 – 2019</span>
+          <div><h3>Full Stack Software Engineer</h3></div>
+        </li>
+      </ol>
+      <p><a class="button" href="resume.pdf">Download Resume</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let's work together.</p>
+      <ul class="links">
+        <!-- Add your email: <li><a href="mailto:you@example.com">Email</a></li> -->
+        <li><a href="https://www.linkedin.com/in/jpkubala/">LinkedIn</a></li>
+        <li><a href="https://www.imdb.com/name/nm12984687/">IMDb</a></li>
+        <li><a href="https://github.com/kubalaj">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span id="year"></span> Paul Kubala</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
